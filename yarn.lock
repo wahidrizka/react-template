@@ -1698,25 +1698,25 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@primer/behaviors@^1.3.4":
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.3.5.tgz#111eb550675577790cc01b14f3cf720332a2a046"
-  integrity sha512-HWwz+6MrfK5NTWcg9GdKFpMBW/yrAV937oXiw2eDtsd88P3SRwoCt6ZO6QmKp9RP3nDU9cbqmuGZ0xBh0eIFeg==
+"@primer/behaviors@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.5.1.tgz#7557482561b1ac33b2cff162bc8be170bea7f58f"
+  integrity sha512-ApPbNhiWPHscs0+rLV76sCY75IEpPvDEZq9+iQXQqU6Tv5SLdax3PmzJlUHftlQ7O/eJnLO1dTEMEwj2Yn1BLA==
 
 "@primer/octicons-react@^19.8.0":
   version "19.8.0"
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.8.0.tgz#f76ec3b3c0bea0c6ceb147d7f2d989e5f149f7e5"
   integrity sha512-2Z+D7xTloFTLQVRUEbg0pQpe6aTL9RR+8RqBhjkrF+BFuVdM1ENOyjywaGEO7DIkPU5Zxlv0gxSlD85LQxL+sw==
 
-"@primer/primitives@^7.11.11", "@primer/primitives@^7.15.0":
-  version "7.15.0"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.0.tgz#25e1958bc92f69963a4aef7c3bdc46bbec11f603"
-  integrity sha512-ut010QMQT2YcQcn6gLHBC97YVN0ToR+7phxl+351hC94a7EgVR9GtwLOqopqU7el2w6iOrUndHBxDuUg1TBWhg==
+"@primer/primitives@7.15.3", "@primer/primitives@^7.15.0":
+  version "7.15.3"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.3.tgz#ff3bb74877bfea2ec3c0780c419f15d32b5f8b53"
+  integrity sha512-BFxFKwa0Bkr+esqbXU5Yt91z/58J2MPoW1cYtp0j2rUYus4lIZnczX7+ZYb7j4BqpfY/88q9Vn+BRwW/Sx4eIA==
 
-"@primer/react@^36.1.0":
-  version "36.1.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.1.0.tgz#2d30fe4e81e9a31a41d15462f7d0a721e6ca2367"
-  integrity sha512-pncEhz8FTW6OI08QyxlItyO1deI5csRKXh4eStzPzXhPBHH+RWbf2cHHhbMIEyIYkOKIygOLCwMc1je07x2BUg==
+"@primer/react@^36.7.0":
+  version "36.7.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.7.0.tgz#e8cf1bf3077d6e2d1db4723e78f40f6148400402"
+  integrity sha512-tbUhei3BfY5eUwBTu1D07Kc8PYMvzIlHANQFgzMG9w1mtDKBTbZY2O3eOpmYt66nsdueJRfALwN/8D+Foyfc6g==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
@@ -1724,9 +1724,9 @@
     "@github/relative-time-element" "^4.1.2"
     "@lit-labs/react" "^1.1.1"
     "@oddbird/popover-polyfill" "^0.3.1"
-    "@primer/behaviors" "^1.3.4"
+    "@primer/behaviors" "^1.5.1"
     "@primer/octicons-react" "^19.8.0"
-    "@primer/primitives" "^7.11.11"
+    "@primer/primitives" "7.15.3"
     "@react-aria/ssr" "^3.5.0"
     "@styled-system/css" "^5.1.5"
     "@styled-system/props" "^5.1.5"
@@ -1736,7 +1736,7 @@
     "@types/styled-system__css" "^5.0.16"
     "@types/styled-system__theme-get" "^5.0.1"
     clsx "^1.2.1"
-    color2k "^2.0.0"
+    color2k "^2.0.3"
     deepmerge "^4.2.2"
     focus-visible "^5.2.0"
     fzy.js "^0.4.1"
@@ -3458,10 +3458,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-color2k@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/color2k/-/color2k-2.0.2.tgz#ac2b4aea11c822a6bcb70c768b5a289f4fffcebb"
-  integrity sha512-kJhwH5nAwb34tmyuqq/lgjEKzlFXn1U99NlnB6Ws4qVaERcRUYeYP1cBw6BJ4vxaWStAUEef4WMr7WjOCnBt8w==
+color2k@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/color2k/-/color2k-2.0.3.tgz#a771244f6b6285541c82aa65ff0a0c624046e533"
+  integrity sha512-zW190nQTIoXcGCaU08DvVNFTmQhUpnJfVuAKfWqUQkflXKpaDdpaYoM0iluLS9lgJNHyBF58KKA2FBEwkD7wog==
 
 colord@^2.9.1:
   version "2.9.3"
